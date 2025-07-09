@@ -1,7 +1,7 @@
 # NonFlammable-Electrolytes-for-Sodium-Ion-Batteries
 We share Gromacs topologies and data about our published work: https://doi.org/10.1021/acsami.4c11797
 
-\textbf{ABSTRACT}: This study investigates a group of electrolytes containing NaPF 6 or NaBF 4 salts in phosphate- and ether-based solvents for high-mass loading
+**ABSTRACT:** This study investigates a group of electrolytes containing NaPF 6 or NaBF 4 salts in phosphate- and ether-based solvents for high-mass loading
 sodium-ion batteries. It explores physicochemical properties such as ionic conductivity, dynamic viscosities, and nonflammability. The combination of
 experimental with computational studies reveals detailed insights into the physicochemical properties of the nonflammable liquid electrolytes. Diglyme-
 based electrolytes become nonflammable with 50 vol % phosphate solvents, while tetraglyme-based electrolytes require 70 vol %. The solvation structure has been
