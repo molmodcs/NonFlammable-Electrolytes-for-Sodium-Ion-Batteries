@@ -1,0 +1,21 @@
+#include "../itp/ff.itp"
+
+; Include topology
+#include "../itp/EC_corr.itp"
+#include "../itp/TEP-RESP.itp"
+#include "../itp/EMC_corr.itp"
+
+#include "../itp/Na_scale0.8.itp"
+#include "../itp/fsi_OPLS0.8.itp"
+
+
+[ system ]
+TEP_70
+
+[ molecules ]
+; Compound        nmols
+EC		153 
+TEP		546
+EMC		301	
+Na		134	
+fsi		134
