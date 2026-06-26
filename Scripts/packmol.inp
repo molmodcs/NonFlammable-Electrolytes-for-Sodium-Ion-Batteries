@@ -1,0 +1,46 @@
+
+# All atoms from diferent molecules will be at least 2.0 Angstroms apart
+# from each other at the solution.
+
+tolerance 2.5
+
+filetype pdb
+
+# The name of the output file.
+
+output TEP_40.pdb
+add_box_sides 1
+
+# EC
+structure EC.pdb
+  number 250              
+  inside box 0. 0. 0. 70. 70. 70.
+end structure
+
+
+# TEP
+structure TEP.pdb
+  number 256              
+  inside box 0. 0. 0. 70. 70. 70.
+end structure
+
+
+# EMC
+structure EMC.pdb
+  number 494              
+  inside box 0. 0. 0. 70. 70. 70.
+end structure
+
+# Na
+structure Na.pdb
+  number 111               
+  inside box 0. 0. 0. 70. 70. 70.
+end structure
+
+
+# fsi
+structure fsi.pdb
+  number 111               
+  inside box 0. 0. 0. 70. 70. 70.
+end structure
+
