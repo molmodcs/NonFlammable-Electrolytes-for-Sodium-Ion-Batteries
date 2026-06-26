@@ -1,0 +1,12 @@
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+1               2               yes             0.5     0.5
+
+#include "TEP_OPLS_atomtypes.itp"
+#include "EC_corr_atomtype.itp"
+#include "EMC_corr_atomtype.itp"
+#include "ffnonbonded.itp"
+
+#include "Na_atomtypes_scale0.8.itp"
+#include "fsi_atomtype_OPLS.itp"
+#include "ffbonded.itp"

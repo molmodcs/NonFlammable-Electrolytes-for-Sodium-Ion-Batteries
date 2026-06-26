@@ -1,0 +1,5 @@
+;Sodium ion (Na)
+
+[ atomtypes ]
+; type   mass  charge  ptype   sigma (nm)   epsilon (kj/mol)	
+  Na   22.98977     0.8000       A    3.33045e-01  1.15980e-02  
